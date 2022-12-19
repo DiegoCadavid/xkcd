@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+  .font-primary {
+    @apply font-[Mali];
+  }
+}
+
+
+
+.border-comic {
+  border-width: 3px 4px 3px 5px;
+  border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+}
+
+.border-comic-small {
+  border-width: 1px 2px 1px 3px;
+}
